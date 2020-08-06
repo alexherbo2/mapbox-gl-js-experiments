@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <!-- Search -->
+      <div id="search">
+        <input type="text" name="address" id="address" placeholder="Type to search">
+      </div>
+
+      <!-- Coordinates -->
+      <div id="coordinates">
+        <span id="longitude"></span>
+        <span id="latitude"></span>
+      </div>
+
+      <!-- Map -->
+      <div id="map"></div>
+    </main>
+
+    <script src="app.js"></script>
+
+  </body>
+</html>
