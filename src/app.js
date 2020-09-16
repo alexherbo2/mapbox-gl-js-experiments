@@ -14,7 +14,7 @@ elements.longitude = document.getElementById('longitude')
 elements.latitude = document.getElementById('latitude')
 
 elements.address.addEventListener('input', async (event) => {
-  const data = await mapboxgl.search(address.value)
+  const data = await mapboxgl.search(event.target.value)
 
   // Update the coordinates (longitude and latitude).
   const [longitude, latitude] = data.center
