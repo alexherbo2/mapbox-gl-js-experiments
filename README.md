@@ -1,10 +1,9 @@
 # Mapbox GL JS experiments
 
-[Mapbox notes]
+###### [API] | [Notes]
 
-[Mapbox notes]: https://alexherbo2.github.io/wiki/mapbox/notes/
-
-- https://docs.mapbox.com/mapbox-gl-js/api/
+[API]: https://docs.mapbox.com/mapbox-gl-js/api/
+[Notes]: https://alexherbo2.github.io/wiki/mapbox/notes/
 
 ## Instructions
 
